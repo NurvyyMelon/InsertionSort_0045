@@ -68,8 +68,9 @@ void display()
     }
     cout << endl;
 }
-input();
+int main()
 {
+    input();
     insertionsort();
     display();
     system("pause");
